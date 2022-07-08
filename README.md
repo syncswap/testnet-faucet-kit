@@ -20,4 +20,7 @@ node listAllDrips
 
 - Mint test tokens (Requires operator permission).
 node mintTestTokens ${tokenAddress} ${amountInUnits}
+
+- Adds a drip (Requires operator permission).
+node addDrip ${tokenAddress} ${amountInUnits}
 ```

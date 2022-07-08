@@ -23,4 +23,7 @@ node mintTestTokens ${tokenAddress} ${amountInUnits}
 
 - Adds a drip (Requires operator permission).
 node addDrip ${tokenAddress} ${amountInUnits}
+
+- Set active status for a drip (Requires operator permission).
+node setDripActive ${dripId} ${status}
 ```
